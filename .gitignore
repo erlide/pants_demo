@@ -1,2 +1,4 @@
-.pants.d
-.pids
+/.pants.*
+/.pids
+/dist/
+__pycache__

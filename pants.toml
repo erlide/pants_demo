@@ -1,5 +1,24 @@
 [GLOBAL]
 pants_version = "2.14.0rc1"
+backend_packages = [
+  "pants.backend.shell",
+  "pants.backend.shell.lint.shfmt",
+  "pants.backend.shell.lint.shellcheck",
+  "pants.backend.build_files.fmt.black",
+  "pants.backend.docker",
+  "pants.backend.docker.lint.hadolint",
+  "pants.backend.python",
+  "pants.backend.python.lint.black",
+  "pants.backend.python.lint.docformatter",
+  "pants.backend.python.lint.isort",
+  "pants.backend.python.lint.flake8",
+  "pants.backend.python.lint.pylint",
+  "pants.backend.python.typecheck.mypy",
+]
 
 [anonymous-telemetry]
 enabled = false
+
+[python]
+# This will become the default in Pants 2.15.
+tailor_pex_binary_targets = false

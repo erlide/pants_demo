@@ -11,6 +11,7 @@
 # ====================================================================
 
 set -eou pipefail
+ulimit -n 10000
 
 # Source any custom bootstrap settings for Pants from PANTS_BOOTSTRAP if it exists.
 : ${PANTS_BOOTSTRAP:=".pants.bootstrap"}
