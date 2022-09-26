@@ -1,6 +1,14 @@
 """app2."""
 
-import click
-import lib2_m
+import rich
+from lib2 import lib2_m
 
-print("app2")
+
+def mmain():
+    """mmain."""
+    rich.print("app2")
+    lib2_m.util_2()
+
+
+if __name__ == "__main__":
+    mmain()

@@ -1,9 +1,9 @@
 """app1."""
 
-import lib1_m
 import requests
 import rich
 from app2 import main as m2  # NOT ALLOWED!
+from lib1 import lib1_m
 
 
 def something():
@@ -14,5 +14,12 @@ def something():
     print("something")
 
 
-if __name__ == "__main__":
+def mmain():
+    """mmain."""
+    something()
     rich.print("app1 [red]app1")
+    m2.mmain()
+
+
+if __name__ == "__main__":
+    mmain()
