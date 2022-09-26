@@ -22,3 +22,8 @@ enabled = false
 [python]
 # This will become the default in Pants 2.15.
 tailor_pex_binary_targets = false
+
+[python-repos]
+indexes=[
+  'https://artcsp-user:AKCp8hzXhoMjiyojWKJJZtneNZ8GTjayuPTnGGNBAoPrgLTnesmmMEDU5zyAFm9ZGKXMN3HoE@ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/simple/'
+]
