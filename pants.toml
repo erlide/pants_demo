@@ -22,8 +22,19 @@ enabled = false
 [python]
 # This will become the default in Pants 2.15.
 tailor_pex_binary_targets = false
+enable_resolves = true
+
+[python.resolves]
+python-default = "lockfile.txt" 
 
 [python-repos]
 indexes=[
-  'https://artcsp-user:AKCp8hzXhoMjiyojWKJJZtneNZ8GTjayuPTnGGNBAoPrgLTnesmmMEDU5zyAFm9ZGKXMN3HoE@ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/simple/'
+  "https://artcsp-user:AKCp8hzXhoMjiyojWKJJZtneNZ8GTjayuPTnGGNBAoPrgLTnesmmMEDU5zyAFm9ZGKXMN3HoE@ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/simple",
+]
+
+[source]
+root_patterns = [
+  '/',
+  'src',
+  'tests',
 ]
