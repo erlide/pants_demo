@@ -1,5 +1,5 @@
 pex_binary(
-    name="app2_bin",
+    name="app2",
     entry_point="src/app2/main.py",
 )
 

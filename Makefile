@@ -12,7 +12,10 @@ test:
 
 check:
 	@./pants check ::
-	@./pants dependencies --transitive apps/app1:app1_bin | grep app2
+	@./scripts/check_app_deps.py
 
 package:
 	@./pants package ::
+
+clean:
+	@rm -rf dist/*

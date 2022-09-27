@@ -1,25 +1,4 @@
 pex_binary(
-    name="app1_bin",
-    entry_point="src/app1/main.py",
-)
-
-
-python_distribution(
-    name="myapp1",
-    dependencies=[
-        # Dependencies on code to be packaged into the distribution.
-        "apps/app1:app1_bin",
-    ],
-    provides=python_artifact(
-        name="myapp1",
-        version="0.1.0",
-    ),
-    # Example of setuptools config, other build backends may have other config.
-    wheel_config_settings={"--global-option": ["--python-tag", "py37.py38.py39"]},
-    # Don't use setuptools with a generated setup.py.
-    # You can also turn this off globally in pants.toml:
-    #
-    # [setup-py-generation]
-    # generate_setup_default = false
-    generate_setup=True,
+    name="app1",
+    entry_point="src/app1/other.py:enter",
 )

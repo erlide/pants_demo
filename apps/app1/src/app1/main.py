@@ -10,7 +10,7 @@ from lib1 import lib1_m
 def something():
     """something."""
     data = requests.get("http://google.com")
-    print(data.content)
+    print(f"GOOGLE <- {len(data.content)} bytes")
     lib1_m.util_1()
     print("something")
 

@@ -37,4 +37,5 @@ root_patterns = [
   '/',
   'src',
   'tests',
+  'scripts',
 ]

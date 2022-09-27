@@ -9,7 +9,7 @@ python_distribution(
     ],
     provides=python_artifact(
         name="lib2",
-        version="2.21.0",
+        version="0.2.0",
     ),
     # Example of setuptools config, other build backends may have other config.
     wheel_config_settings={"--global-option": ["--python-tag", "py37.py38.py39"]},
