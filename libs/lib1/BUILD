@@ -12,7 +12,7 @@ python_distribution(
         version="0.1.0",
     ),
     # Example of setuptools config, other build backends may have other config.
-    wheel_config_settings={"--global-option": ["--python-tag", "py37.py38.py39"]},
+    wheel_config_settings={"--global-option": ["--python-tag", "py38"]},
     # Don't use setuptools with a generated setup.py.
     # You can also turn this off globally in pants.toml:
     #

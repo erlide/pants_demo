@@ -10,8 +10,10 @@
 //   ],
 //   "generated_with_requirements": [
 //     "click",
+//     "pydantic",
 //     "requests",
 //     "rich",
+//     "setproctitle",
 //     "types-requests"
 //   ],
 //   "manylinux": "manylinux2014",
@@ -170,6 +172,173 @@
           "artifacts": [
             {
               "algorithm": "sha256",
+              "hash": "1b6ee725bd6e83ec78b1aa32c5b1fa67a3a65badddde3976bca5fe4568f27709",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/d4/ec/230ab377c457cd68cfda78759e2a57f8c08a9e9adb4cd53c4d2fc9100b15/pydantic-1.10.2-py3-none-any.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "1ee433e274268a4b0c8fde7ad9d58ecba12b069a033ecc4645bb6303c062d2e9",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/13/e3/5b83cba317390c9125e049a5328b8e19475098362d398a65936aaab3f00f/pydantic-1.10.2-cp38-cp38-musllinux_1_1_i686.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "81a7b66c3f499108b448f3f004801fcd7d7165fb4200acb03f1c2402da73ce4c",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/22/53/196c9a5752e30d682e493d7c00ea0a02377446578e577ae5e085010dc0bd/pydantic-1.10.2-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "05e00dbebbe810b33c7a7362f231893183bcc4251f3f2ff991c31d5c08240c42",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/33/82/40effb1628768af97223df215ed909cc25e0d04d5503667cf7fb5266ee0d/pydantic-1.10.2-cp311-cp311-musllinux_1_1_i686.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "9300fcbebf85f6339a02c6994b2eb3ff1b9c8c14f502058b5bf349d42447dcf5",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/33/dd/a8eda780256d32a0ebf2a507e3ee6776e485b98c15b5f6c9ee1661b7374a/pydantic-1.10.2-cp37-cp37m-musllinux_1_1_i686.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "6eb843dcc411b6a2237a694f5e1d649fc66c6064d02b204a7e9d194dff81eb4b",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/4c/5f/11db15638a3f5b29c7ae6f24b43c1e7985f09b0fe983621d7ef1ff722020/pydantic-1.10.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "a1f5a63a6dfe19d719b1b6e6106561869d2efaca6167f84f5ab9347887d78b98",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/4c/a9/26873855ce8c1d84cc892036c3396dd1e2d3233201d0b7002451f679ad8d/pydantic-1.10.2-cp310-cp310-macosx_11_0_arm64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "b97890e56a694486f772d36efd2ba31612739bc6f3caeee50e9e7e3ebd2fdd13",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/4f/53/5747ced47f8af73753bdeb39271acaef47dc63873e0ca16fc33d4a777f31/pydantic-1.10.2-cp38-cp38-macosx_10_9_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "7b5ba54d026c2bd2cb769d3468885f23f43710f651688e91f5fb1edcf0ee9283",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/5d/96/3861db92c405d491d02abf17a88f04575311f36688bdb9fb086838d0b379/pydantic-1.10.2-cp311-cp311-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "e0bedafe4bc165ad0a56ac0bd7695df25c50f76961da29c050712596cf092d6d",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/65/06/5925bb1302daaacc28cdf3ac832d62bd0f5fdda5c648409d98cce26d78a4/pydantic-1.10.2-cp39-cp39-musllinux_1_1_i686.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "e9069e1b01525a96e6ff49e25876d90d5a563bc31c658289a8772ae186552236",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/6e/fd/8ffad95e696caf36834c3819d1509f8fb146120501c8deb27c8bfb146b26/pydantic-1.10.2-cp310-cp310-musllinux_1_1_i686.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "06094d18dd5e6f2bbf93efa54991c3240964bb663b87729ac340eb5014310624",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/74/3e/f043a9db9f3ec835b49b084054a83e64a2057d6dabc15da4d2f00edaf8f4/pydantic-1.10.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "37c90345ec7dd2f1bcef82ce49b6235b40f282b94d3eec47e801baf864d15525",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/74/4f/ea30b0bc3ea6f41d73c9aaa26fd51bd9d4f6f755c62625b592c2c2b1b6f0/pydantic-1.10.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "216f3bcbf19c726b1cc22b099dd409aa371f55c08800bcea4c44c8f74b73478d",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/7a/1d/d61c9ae42b62686a4230a7747119527269cb8bd17fb7146ee463b1a3ed71/pydantic-1.10.2-cp37-cp37m-musllinux_1_1_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "91b8e218852ef6007c2b98cd861601c6a09f1aa32bbbb74fab5b1c33d4a1e410",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/7d/7d/58dd62f792b002fa28cce4e83cb90f4359809e6d12db86eedf26a752895c/pydantic-1.10.2.tar.gz"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "352aedb1d71b8b0736c6d56ad2bd34c6982720644b0624462059ab29bd6e5912",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/87/f7/b02ec31ffd6eafdd2ca8a4a9f1a3ad2fa68ca8b850de82bbe99053e3d2c0/pydantic-1.10.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "19b3b9ccf97af2b7519c42032441a891a5e05c68368f40865a90eb88833c2559",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/88/6f/69a98253109e15de3eba1b6ec5c621f01c9e3735c2d3e6a949b4f467d78e/pydantic-1.10.2-cp310-cp310-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "cc78cc83110d2f275ec1970e7a831f4e371ee92405332ebfe9860a715f8336e1",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/8a/b0/8a4349bb4388e1cd6b843a908b33bc1fea261ce948c287fd5b32e094dc96/pydantic-1.10.2-cp38-cp38-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "d49f3db871575e0426b12e2f32fdb25e579dea16486a26e5a0474af87cb1ab0a",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/92/fb/0d5e414d3f72b43c50572f63647fab3abf41cc9f04f810bec97e4d61f09a/pydantic-1.10.2-cp311-cp311-macosx_11_0_arm64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "2e05aed07fa02231dbf03d0adb1be1d79cabb09025dd45aa094aa8b4e7b9dcda",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/97/d5/dc4bd637ba0c2cefc58f40415116b9bbc315aa41da158dc3b81d9d981c1c/pydantic-1.10.2-cp39-cp39-musllinux_1_1_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "2d0567e60eb01bccda3a4df01df677adf6b437958d35c12a3ac3e0f078b0ee52",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/a9/ce/f01d53fa974c954610e08be73058436f5df6a5125929a8d732030eeb19a8/pydantic-1.10.2-cp311-cp311-musllinux_1_1_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "c33602f93bfb67779f9c507e4d69451664524389546bacfe1bee13cae6dc7488",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/af/cf/beecf80bc07c9bd1612219b053950af9b04eb597806c9905dbcfd75fa50d/pydantic-1.10.2-cp39-cp39-macosx_10_9_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "4b8795290deaae348c4eba0cebb196e1c6b98bdbe7f50b2d0d9a4a99716342fe",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/b2/74/961f37b2c2df5c021dd4ac981750a455f0eea312f3eb074a0b7f0fd4663d/pydantic-1.10.2-cp39-cp39-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "c4aac8e7103bf598373208f6299fa9a5cfd1fc571f2d40bf1dd1955a63d6eeb5",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/c2/f7/9c79223c4131bd258dd4b362e426804346b62b1a2e7c914f3eefd6f9f73c/pydantic-1.10.2-cp37-cp37m-macosx_10_9_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "a4c805731c33a8db4b6ace45ce440c4ef5336e712508b4d9e1aafa617dc9907f",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/c4/ab/25e2515801f17d1434500ed59405a9f13030891896bd4fc90088f8bdf610/pydantic-1.10.2-cp311-cp311-macosx_10_9_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "355639d9afc76bcb9b0c3000ddcd08472ae75318a6eb67a15866b87e2efa168c",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/c6/9b/7a383fbd1f5f0ec8143fb9ebf57c22c4356fadedc0ca376262117e6f2878/pydantic-1.10.2-cp310-cp310-musllinux_1_1_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "7c2abc4393dea97a4ccbb4ec7d8658d4e22c4765b7b9b9445588f16c71ad9965",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/e5/23/96ba59f91dc42b35d72d8ffd8eff1f9c4b508b927207f9122fcfa679c495/pydantic-1.10.2-cp38-cp38-musllinux_1_1_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "9cabf4a7f05a776e7793e72793cd92cc865ea0e83a819f9ae4ecccb1b8aa6116",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/f0/83/9bb5cfa0eca92d0c7c317438ecce33051c3879bf2b0a2b990e4e0d6070b7/pydantic-1.10.2-cp38-cp38-macosx_11_0_arm64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "5760e164b807a48a8f25f8aa1a6d857e6ce62e7ec83ea5d5c5a802eac81bad41",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/f8/91/814d1d833d4d53ae4854dcb23256c55758b0fc01b90b20a297ee2c76bb84/pydantic-1.10.2-cp39-cp39-macosx_11_0_arm64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "bedf309630209e78582ffacda64a21f96f3ed2e51fbf3962d4d488e503420254",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/fe/5b/6f77e6ebc93e5e3c7fd480e1b171a6547407eba901a56a65d2745df24144/pydantic-1.10.2-cp37-cp37m-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "bb6ad4489af1bac6955d38ebcb95079a836af31e4c4f74aba1ca05bb9f6027bd",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/fe/fd/8f7f8271d526378c927babd1229501e576760cef9a509909a3415eec3c0d/pydantic-1.10.2-cp310-cp310-macosx_10_9_x86_64.whl"
+            }
+          ],
+          "project_name": "pydantic",
+          "requires_dists": [
+            "email-validator>=1.0.3; extra == \"email\"",
+            "python-dotenv>=0.10.4; extra == \"dotenv\"",
+            "typing-extensions>=4.1.0"
+          ],
+          "requires_python": ">=3.7",
+          "version": "1.10.2"
+        },
+        {
+          "artifacts": [
+            {
+              "algorithm": "sha256",
               "hash": "f643f331ab57ba3c9d89212ee4a2dabc6e94f117cf4eefde99a0574720d14c42",
               "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/4f/82/672cd382e5b39ab1cd422a672382f08a1fb3d08d9e0c0f3707f33a52063b/Pygments-2.13.0-py3-none-any.whl"
             },
@@ -234,6 +403,261 @@
           ],
           "requires_python": "<4.0.0,>=3.6.3",
           "version": "12.5.1"
+        },
+        {
+          "artifacts": [
+            {
+              "algorithm": "sha256",
+              "hash": "65d884e22037b23fa25b2baf1a3316602ed5c5971eb3e9d771a38c3a69ce6e13",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/8d/f0/7d0999aaa3efb1d5e4f1bb7d7a0fee133e94a70e0780c3032e6cc19c66da/setproctitle-1.3.2-pp39-pypy39_pp73-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "a149a5f7f2c5a065d4e63cb0d7a4b6d3b66e6e80f12e3f8827c4f63974cbf122",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/02/9c/48155692325ff7ca9b841cfc7894ea6770c4a24455f8775959916f08e723/setproctitle-1.3.2-pp39-pypy39_pp73-macosx_10_9_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "288943dec88e178bb2fd868adf491197cc0fc8b6810416b1c6775e686bab87fe",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/04/a9/19a77c1ead9b0b3e9e366aafb64d8cdf31ed25e42a781dded07907332300/setproctitle-1.3.2-cp310-cp310-macosx_10_9_universal2.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "5b932c3041aa924163f4aab970c2f0e6b4d9d773f4d50326e0ea1cd69240e5c5",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/09/7b/d8aa13b2ca77541a6ec99edfec4f6f9372c32016355001f16cb2ab691404/setproctitle-1.3.2-cp38-cp38-macosx_10_9_universal2.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "630f6fe5e24a619ccf970c78e084319ee8be5be253ecc9b5b216b0f474f5ef18",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/20/a3/8d19f528ffbb3496040bc0cbef02a8678a102b9c04effd55ac1fcd7d2c07/setproctitle-1.3.2-cp310-cp310-macosx_10_9_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "1c8d9650154afaa86a44ff195b7b10d683c73509d085339d174e394a22cccbb9",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/22/74/bdedbb32ca2b85a6eb23afacfd83cf4b4a9334d91e33b178812cf1d3db58/setproctitle-1.3.2-cp37-cp37m-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "e1aafc91cbdacc9e5fe712c52077369168e6b6c346f3a9d51bf600b53eae56bb",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/25/e4/39f9b58efd84149a56ac1bb9ceec2ba8ae7efd90f83ba1b87752a6a9c5f0/setproctitle-1.3.2-pp38-pypy38_pp73-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "c8a09d570b39517de10ee5b718730e171251ce63bbb890c430c725c8c53d4484",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/29/0b/715f78956a4910dbf7c3aaa6a8246e5d225fdb4ac1127689d9ba6e6896be/setproctitle-1.3.2-cp38-cp38-musllinux_1_1_i686.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "b34baef93bfb20a8ecb930e395ccd2ae3268050d8cf4fe187de5e2bd806fd796",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/29/0f/884a680fed30dbd1f99fba1f0ae189a1bc7026246150a1b4a5492108c231/setproctitle-1.3.2-cp39-cp39-musllinux_1_1_ppc64le.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "7fe9df7aeb8c64db6c34fc3b13271a363475d77bc157d3f00275a53910cb1989",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/39/2e/65a12b007d579a8d5fab6e50198a2ad7bbda9c6d304a69796a062426d913/setproctitle-1.3.2-cp37-cp37m-musllinux_1_1_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "265ecbe2c6eafe82e104f994ddd7c811520acdd0647b73f65c24f51374cf9494",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/3a/e6/132696161734102966b1ad558e05b0ff65ed9d192f1e781b0d55cec88d64/setproctitle-1.3.2-cp310-cp310-musllinux_1_1_aarch64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "faec934cfe5fd6ac1151c02e67156c3f526e82f96b24d550b5d51efa4a5527c6",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/3c/15/82ec06f392cee2670e16ac35a59f44723cf72103d19407cbb071b5850201/setproctitle-1.3.2-pp38-pypy38_pp73-macosx_10_9_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "2e3ac25bfc4a0f29d2409650c7532d5ddfdbf29f16f8a256fc31c47d0dc05172",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/41/c7/107d46b676592ce508bd0ad3ac3b94acb1754460f375eccaba6e151375a8/setproctitle-1.3.2-pp39-pypy39_pp73-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "fed18e44711c5af4b681c2b3b18f85e6f0f1b2370a28854c645d636d5305ccd8",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/42/69/5495ee592ad6c6411c9d1f1d610e37557f14fa5d039ef82bf86f328ca289/setproctitle-1.3.2-cp39-cp39-musllinux_1_1_i686.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "6c877691b90026670e5a70adfbcc735460a9f4c274d35ec5e8a43ce3f8443005",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/43/b1/c951d93fb88f684f65e7160b918fff77c0ac348d240839e8a53b1b05b119/setproctitle-1.3.2-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "7f2719a398e1a2c01c2a63bf30377a34d0b6ef61946ab9cf4d550733af8f1ef1",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/45/8c/295ff4d931fa9e45510eb29d772aed93c5b1c365f5e54a55129a91c96eba/setproctitle-1.3.2-cp310-cp310-musllinux_1_1_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "e00c9d5c541a2713ba0e657e0303bf96ddddc412ef4761676adc35df35d7c246",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/46/b6/d1a2fc143997d89dc2dd9b55646fddb702699624510d619e101c8e149bdf/setproctitle-1.3.2-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "7a55fe05f15c10e8c705038777656fe45e3bd676d49ad9ac8370b75c66dd7cd7",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/49/a3/0c011499a8e0ee3dd38d73b1e32e4ca4f2cb903b6d317f4b96d78787bde8/setproctitle-1.3.2-cp310-cp310-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "4058564195b975ddc3f0462375c533cce310ccdd41b80ac9aed641c296c3eff4",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/4a/a4/cb6c3d274e8f5c36c65590723d58f994f407a0c835ac94379c00b89df4dd/setproctitle-1.3.2-cp39-cp39-macosx_10_9_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "f0452282258dfcc01697026a8841258dd2057c4438b43914b611bccbcd048f10",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/4b/b1/95367ba12415e48f331379032fe8060c56fbddc0b74838d1c6668e031a44/setproctitle-1.3.2-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "de3a540cd1817ede31f530d20e6a4935bbc1b145fd8f8cf393903b1e02f1ae76",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/50/ef/cff921345cadf05bef3cb4da37eac23d08fd063222a633231e8ae1f61a0d/setproctitle-1.3.2-cp39-cp39-macosx_10_9_universal2.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "589be87172b238f839e19f146b9ea47c71e413e951ef0dc6db4218ddacf3c202",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/5c/48/ac39c43ca8709b23f8410a6e483e89a836f02c082b77134441d12502f380/setproctitle-1.3.2-cp38-cp38-musllinux_1_1_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "ffc61a388a5834a97953d6444a2888c24a05f2e333f9ed49f977a87bb1ad4761",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/66/b0/bb81bad3120364523b1a9511564f6ec6f5de322400cd5f3ebef526d40c23/setproctitle-1.3.2-cp39-cp39-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "1f29b75e86260b0ab59adb12661ef9f113d2f93a59951373eb6d68a852b13e83",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/6a/40/ee7b7fcf19ef1befc3c716a2ca8b6fa8dd35815b7eef838a14bf135275d3/setproctitle-1.3.2-cp37-cp37m-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "fcd3cf4286a60fdc95451d8d14e0389a6b4f5cebe02c7f2609325eb016535963",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/71/53/f0e0b2e635ffaba4a1822a5a3c11acda4f6d997feed8692db7c5cc1502ad/setproctitle-1.3.2-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "5194b4969f82ea842a4f6af2f82cd16ebdc3f1771fb2771796e6add9835c1973",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/76/dd/f0b702d3a2ada49307b958e9cff6c3d9215a325da46380e983ddf23969bd/setproctitle-1.3.2-cp38-cp38-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "9124bedd8006b0e04d4e8a71a0945da9b67e7a4ab88fdad7b1440dc5b6122c42",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/82/0d/eecf43456f202bb8342bbe7a8e441f5e6245f99894c7955936acc67a4f2b/setproctitle-1.3.2-cp38-cp38-musllinux_1_1_aarch64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "c2c46200656280a064073447ebd363937562debef329482fd7e570c8d498f806",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/87/88/106215fddc0fbb64337715406d5f5f97f999a3c7de98a7476d39609332a0/setproctitle-1.3.2-cp310-cp310-musllinux_1_1_i686.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "ab45146c71ca6592c9cc8b354a2cc9cc4843c33efcbe1d245d7d37ce9696552d",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/89/78/670e28d65a1c70a0e1a06ea7c10ef57235d0e303d3019fedef7ce801e0f8/setproctitle-1.3.2-cp310-cp310-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "c91b9bc8985d00239f7dc08a49927a7ca1ca8a6af2c3890feec3ed9665b6f91e",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/8e/26/904b99ea77b569a2e85331f710f8374d7f2c668914dd71f5062fdc5027a3/setproctitle-1.3.2-pp37-pypy37_pp73-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "1c5d5dad7c28bdd1ec4187d818e43796f58a845aa892bb4481587010dc4d362b",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/9a/12/cc8c117c13319e7c56aea7c33d127150e538da7e9a4808aa91e07d424610/setproctitle-1.3.2-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "1ff863a20d1ff6ba2c24e22436a3daa3cd80be1dfb26891aae73f61b54b04aca",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/9c/67/e8872c89efca609954185f1089d596b206a33d6a8e31f7295a4b5cd05468/setproctitle-1.3.2-cp37-cp37m-musllinux_1_1_i686.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "710e16fa3bade3b026907e4a5e841124983620046166f355bbb84be364bf2a02",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/9e/31/a0f29c88617705b6dc7a72b6cb7a270f1c15b7f53ae99adc592f506fd151/setproctitle-1.3.2-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "92c626edc66169a1b09e9541b9c0c9f10488447d8a2b1d87c8f0672e771bc927",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/9f/86/2af288f58d44bd79b9840e8365da0e403c8d76665d5ed16b0b07016a73bf/setproctitle-1.3.2-cp37-cp37m-macosx_10_9_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "8ff3c8cb26afaed25e8bca7b9dd0c1e36de71f35a3a0706b5c0d5172587a3827",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/a6/79/30829bdf3d8825000780f1b9ddcb3970898f30e8fd20c82744ad5ba92bf2/setproctitle-1.3.2-cp38-cp38-musllinux_1_1_ppc64le.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "7f0bed90a216ef28b9d227d8d73e28a8c9b88c0f48a082d13ab3fa83c581488f",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/a9/6e/c50be96334dcb7a63f7fca5897d99f2ae1deee378cec8dbd8a56c3cd4ded/setproctitle-1.3.2-cp39-cp39-musllinux_1_1_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "e8579a43eafd246e285eb3a5b939e7158073d5087aacdd2308f23200eac2458b",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/aa/14/2f09103e288f06a6628447873bb2484538a1fe293f24a7238fa558d3c6cb/setproctitle-1.3.2-pp37-pypy37_pp73-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "e49ae693306d7624015f31cb3e82708916759d592c2e5f72a35c8f4cc8aef258",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/af/6b/871ae1b3c7b8c475fc6ad7a1ad6b3bc4465771c2772c7fb5520400f3d4a9/setproctitle-1.3.2-cp37-cp37m-musllinux_1_1_aarch64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "b9fb97907c830d260fa0658ed58afd48a86b2b88aac521135c352ff7fd3477fd",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/b5/47/ac709629ddb9779fee29b7d10ae9580f60a4b37e49bce72360ddf9a79cdc/setproctitle-1.3.2.tar.gz"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "fe8a988c7220c002c45347430993830666e55bc350179d91fcee0feafe64e1d4",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/b7/7e/4f71712c98fd06b3075c93a1a2135c5f656191b2aae30895ca7bc7a0da03/setproctitle-1.3.2-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "b617f12c9be61e8f4b2857be4a4319754756845dbbbd9c3718f468bbb1e17bcb",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/c6/19/f317a8a1b3063affae0cd04bed33ddef710f8169a5bb2ae066280ae1ca5d/setproctitle-1.3.2-pp38-pypy38_pp73-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "1f0cde41857a644b7353a0060b5f94f7ba7cf593ebde5a1094da1be581ac9a31",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/ce/ea/da374494f0edede3bc098a747e308d40ba737e3b160d3ff46cce05f84c9a/setproctitle-1.3.2-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "dad42e676c5261eb50fdb16bdf3e2771cf8f99a79ef69ba88729aeb3472d8575",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/cf/86/07d7d30f25fc59aa6d9c2781c65299e2e056101febf58daa820e7a5b7846/setproctitle-1.3.2-pp37-pypy37_pp73-macosx_10_9_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "f4bfc89bd33ebb8e4c0e9846a09b1f5a4a86f5cb7a317e75cc42fee1131b4f4f",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/d5/6d/912d49dc1d007daa0d47c21b2d65fa31d97752bf879f9d18381baaf8c180/setproctitle-1.3.2-cp38-cp38-macosx_10_9_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "bae283e85fc084b18ffeb92e061ff7ac5af9e183c9d1345c93e178c3e5069cbe",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/dd/6e/e920bb0ce7bc7eebdef249643ac3b66dbd9677d668472a86b88149575234/setproctitle-1.3.2-cp39-cp39-musllinux_1_1_aarch64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "5fb4f769c02f63fac90989711a3fee83919f47ae9afd4758ced5d86596318c65",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/e5/94/dd65531001480c9ff83fd374d7e0b3c5343d8b17fc299c941097b8f5c552/setproctitle-1.3.2-cp38-cp38-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "55ce1e9925ce1765865442ede9dca0ba9bde10593fcd570b1f0fa25d3ec6b31c",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/e8/63/21103403a459271b241340381c6763699597dccafc6b9dd6bf75451ab999/setproctitle-1.3.2-cp37-cp37m-musllinux_1_1_ppc64le.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "fa2f50678f04fda7a75d0fe5dd02bbdd3b13cbe6ed4cf626e4472a7ccf47ae94",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/ea/85/a5df3ef79b642a188ace9f73fd9b2527bd2549a155aaa3e7d6a5bafd3061/setproctitle-1.3.2-cp310-cp310-musllinux_1_1_ppc64le.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "1fa1a0fbee72b47dc339c87c890d3c03a72ea65c061ade3204f285582f2da30f",
+              "url": "https://ara-artifactory.volvocars.biz/artifactory/api/pypi/PYPI/packages/packages/f3/4e/3b13ff5965903911f4e93631fb3ae7419943e0dc77e479b781e34540fae3/setproctitle-1.3.2-cp39-cp39-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl"
+            }
+          ],
+          "project_name": "setproctitle",
+          "requires_dists": [
+            "pytest; extra == \"test\""
+          ],
+          "requires_python": ">=3.7",
+          "version": "1.3.2"
         },
         {
           "artifacts": [
@@ -361,8 +785,10 @@
   "prefer_older_binary": false,
   "requirements": [
     "click",
+    "pydantic",
     "requests",
     "rich",
+    "setproctitle",
     "types-requests"
   ],
   "requires_python": [

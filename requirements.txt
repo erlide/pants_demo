@@ -2,3 +2,4 @@ click
 rich
 requests
 types-requests
+setproctitle
