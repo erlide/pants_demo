@@ -18,7 +18,7 @@ def something():
 def mmain():
     """mmain."""
     something()
-    rich.print("app1 [red]app1")
+    rich.print("app1 [red]app1[/red]!")
     # m2.mmain()
 
 
