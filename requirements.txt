@@ -3,3 +3,6 @@ rich
 requests
 types-requests
 setproctitle
+pydantic==1.10.2
+pyyaml
+types-PyYAML

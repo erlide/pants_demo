@@ -18,5 +18,5 @@ python_distribution(
     #
     # [setup-py-generation]
     # generate_setup_default = false
-    generate_setup=True,
+    # generate_setup=True,
 )

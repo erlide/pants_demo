@@ -1,6 +1,3 @@
-python_requirements(
-    name="reqs",
-)
 python_requirement(name="setproctitle_req", requirements=["setproctitle"])
 
 pex_binary(

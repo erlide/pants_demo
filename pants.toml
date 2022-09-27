@@ -39,3 +39,6 @@ root_patterns = [
   'tests',
   'scripts',
 ]
+
+[docker]
+#build_args = ["GIT_COMMIT"]

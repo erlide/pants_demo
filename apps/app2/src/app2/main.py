@@ -5,7 +5,9 @@ from lib2 import lib2_m
 from pydantic import BaseModel
 
 
-class User(BaseModel):
+class User(BaseModel):  # pylint: disable=too-few-public-methods
+    """User model."""
+
     id: int
     name = "Jane Doe"
 
