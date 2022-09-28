@@ -6,3 +6,5 @@ pex_binary(
     include_tools=True,
     dependencies=[":setproctitle_req"],
 )
+
+resource(name="readme", source="README.md")

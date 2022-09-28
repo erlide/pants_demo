@@ -20,3 +20,5 @@ python_distribution(
     # generate_setup_default = false
     generate_setup=True,
 )
+
+resource(name="readme", source="README.md")
