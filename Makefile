@@ -12,7 +12,7 @@ test:
 
 check:
 	@./pants check ::
-	@./scripts/check_app_deps.py
+	@./tools/check_app_deps.py
 
 package:
 	@./pants package ::
